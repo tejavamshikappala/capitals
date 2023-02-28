@@ -1,0 +1,60 @@
+.forOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background-color: #93c5fd;
+  overflow-x: scroll;
+}
+.forInner {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 80vw;
+  overflow: auto;
+  padding: 20px 60px 20px 20px;
+}
+.forheader {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.forselect {
+  padding: 5px;
+  outline: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border-color: #cbd2d9;
+  margin: 5px 10px 10px 0px;
+}
+.forlabel {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.forparaRes {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .forInner {
+    padding: 60px;
+  }
+  .forheader {
+    font-size: 28px;
+  }
+  .forlabel {
+    font-size: 16px;
+  }
+  .forselect {
+    padding: 10px;
+  }
+  .forInner {
+    width: 500px;
+  }
+}
